@@ -10,4 +10,4 @@ spec:
     - name: http
       port: 80 # Service Port
       targetPort: 80 # Container Port
-      nodePort: 31300 # Node Port  we can user LoadBalancer service here to deploy it in AKS cluster
+      nodePort: 31300 # Node Port.
